@@ -1,5 +1,5 @@
 ---
-image: registry.gitlab.com/estudosdevops/job/deploy/ansible:master
+image: registry.gitlab.com/estudosdevops/pipeline/jobs/ansible:master
 
 stages:
   - lint
