@@ -15,5 +15,6 @@ repos:
       files: \.(yaml|yml)$
       args: [
         "--exclude=roles",
+        "--exclude=.travis.yml",
         "--exclude=requirements.yml"
       ]
