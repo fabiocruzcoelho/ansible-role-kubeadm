@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to role kubeadmin 👋</h1>
+<h1 align="center">Welcome to role kubeadm 👋</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" />
   <a href="https://gitlab.com/estudosdevops/ansible/roles/kubeadmin/-/blob/master/README.md" target="_blank">
@@ -16,6 +16,15 @@
 
 ## Install
 
+- requirements.yml
+
+```yml
+---
+- name: kubadm
+  src: https://gitlab.com/estudosdevops/ansible/roles/kubeadm.git
+  version: master
+```
+
 ```sh
 ansible-galaxy install -r requirements.yml
 ```
@@ -27,7 +36,7 @@ Available variables are along with default values (see defaults/main.yml):
 ## Examplo playbook
 
 ```yml
-- name: Install kubadmin
+- name: Install kubadm
   hosts: all
 
   roles:
@@ -41,7 +50,7 @@ Available variables are along with default values (see defaults/main.yml):
 - [ansible-role-tester](https://github.com/fubarhouse/ansible-role-tester)
 
 ```sh
-git clone https://gitlab.com/estudosdevops/ansible/roles/kubeadmin.git
+git clone https://gitlab.com/estudosdevops/ansible/roles/kubeadm.git
 ```
 
 ```sh
@@ -53,12 +62,12 @@ make test
 👤 **Fabio Coelho**
 
 * Twitter: [@fcruzcoelho](https://twitter.com/fcruzcoelho)
-* Github: [@fabiocruzcoelho](https://github.com/fabiocruzcoelho)
+* GitLab: [@fabiocruzcoelho](https://gitlab.com/fabiocruzcoelho)
 * LinkedIn: [@fcruzcoelho](https://linkedin.com/in/fcruzcoelho)
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://gitlab.com/estudosdevops/ansible/roles/kubeadmin/-/issues).
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://gitlab.com/estudosdevops/ansible/roles/kubeadm/-/issues).
 
 ## Show your support
 
