@@ -1,6 +1,7 @@
 <h1 align="center">Welcome to role kubeadm 👋</h1>
 <p>
-  <img alt="Pipeline Status" src="https://gitlab.com/estudosdevops/ansible/roles/kubeadm/badges/master/pipeline.svg" />
+  <a href="https://gitlab.com/estudosdevops/ansible/roles/kubeadm/-/commits/master">
+    <img alt="pipeline status" src="https://gitlab.com/estudosdevops/ansible/roles/kubeadm/badges/master/pipeline.svg" /></a>
   <img alt="Version" src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" />
   <a href="https://gitlab.com/estudosdevops/ansible/roles/kubeadmin/-/blob/master/README.md" target="_blank">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
