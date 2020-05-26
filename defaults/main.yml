@@ -19,4 +19,5 @@ kubernetes_apt_ignore_key_error: false
 
 kubernetes_yum_arch: x86_64
 
-
+# A list of users who will be added to the docker group.
+docker_users: []
