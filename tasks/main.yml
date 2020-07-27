@@ -25,6 +25,9 @@
   notify: restart kubelet
   loop: "{{ kubernetes_packages }}"
 
+- name: Pull images with kubeadm config.
+  command: kubeadm config images pull
+
 - name: Ensure kubelet is started and enabled at boot.
   systemd:
     name: kubelet
