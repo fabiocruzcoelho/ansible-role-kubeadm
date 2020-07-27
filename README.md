@@ -22,9 +22,8 @@
 
 ```yml
 ---
-- name: kubadm
-  src: https://gitlab.com/estudosdevops/ansible/roles/kubeadm.git
-  version: master
+- name: kubeadm
+  src: fabiocruzcoelho.kubeadm
 ```
 
 ```sh
