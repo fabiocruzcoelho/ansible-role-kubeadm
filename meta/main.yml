@@ -1,5 +1,6 @@
 ---
 galaxy_info:
+  role_name: gitops
   author: Fabio Coelho
   description: Install kubernetes packages for linux
   company: GPiT Consultoria
@@ -9,10 +10,6 @@ galaxy_info:
   min_ansible_version: 2.9
 
   platforms:
-    - name: EL
-      versions:
-        - 7
-        - 8
     - name: Debian
       versions:
         - stretch
