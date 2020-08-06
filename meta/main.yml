@@ -2,7 +2,7 @@
 galaxy_info:
   role_name: kubeadm
   author: Fabio Coelho
-  description: Install kubernetes packages for linux
+  description: Install kubeadm packages
   company: GPiT Consultoria
 
   license: license (BSD, MIT)
