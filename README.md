@@ -1,12 +1,13 @@
 <h1 align="center">Welcome to role kubeadm 👋</h1>
 <p>
+  <img alt="Build Status" src="https://travis-ci.com/fabiocruzcoelho/ansible-role-kubeadm.svg?branch=master" /></a>
   <a href="https://gitlab.com/estudosdevops/ansible/roles/kubeadm/-/commits/master">
     <img alt="pipeline status" src="https://gitlab.com/estudosdevops/ansible/roles/kubeadm/badges/master/pipeline.svg" /></a>
   <img alt="Version" src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" />
   <a href="https://gitlab.com/estudosdevops/ansible/roles/kubeadmin/-/blob/master/README.md" target="_blank">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
   </a>
-  <a href="https://pt.wikipedia.org/wiki/Licen%C3%A7a_MIT" target="_blank">
+  <a href="https://gitlab.com/estudosdevops/ansible/roles/kubeadm/-/raw/master/LICENSE" target="_blank">
     <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
   </a>
   <a href="https://twitter.com/fcruzcoelho" target="_blank">
